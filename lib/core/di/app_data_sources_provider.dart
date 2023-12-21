@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:rugram/core/di/app_services.dart';
 import 'package:rugram/data/remote_data_sources/post/post_data_source.dart';
-import 'package:rugram/features/users/user_data_source.dart';
+import 'package:rugram/data/remote_data_sources/user/user_data_source.dart';
 
 class AppDataSourcesProvider extends StatefulWidget {
   final Widget child;
